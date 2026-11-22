@@ -1,0 +1,303 @@
+<resources>
+    <string name="app_name">Drogri</string>
+    <string name="app_subtitle">إدارة المنتجات والمخزون</string>
+    <string name="currency_symbol">د.م</string>
+
+    <!-- Dashboard / Main -->
+    <string name="search_hint">ابحث عن منتج أو قسم…</string>
+    <string name="category_all">جميع المنتجات</string>
+    <string name="categories_title">الأقسام</string>
+    <string name="manage_categories">إدارة الأقسام</string>
+    <string name="empty_products_title">لا توجد منتجات</string>
+    <string name="empty_products_desc">اضغط على زر + في الأسفل لإضافة أول منتج لمتجرك.</string>
+    <string name="empty_search_desc">لا توجد منتجات تطابق بحثك أو التصنيف المحدد.</string>
+    <string name="add_product">إضافة منتج</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="backup_title">النسخ الاحتياطي</string>
+
+    <!-- Sections in Add/Edit Product -->
+    <string name="section_basic_info">المعلومات الأساسية</string>
+    <string name="section_properties">الخصائص</string>
+    <string name="section_dimensions">الأبعاد والقياسات (اختياري)</string>
+    <string name="section_weight_volume">الوزن والسعة (اختياري)</string>
+
+    <!-- Product Fields -->
+    <string name="product_name">اسم المنتج</string>
+    <string name="product_name_hint">مثال: قميص قطني، هاتف ذكي…</string>
+    <string name="purchase_price">ثمن الشراء (د.م)</string>
+    <string name="purchase_price_hint">0.00</string>
+    <string name="selling_price">ثمن البيع (د.م)</string>
+    <string name="selling_price_hint">0.00</string>
+    <string name="color">اللون</string>
+    <string name="color_hint">مثال: أزرق، أسود…</string>
+    <string name="size">المقاس</string>
+    <string name="custom_size_hint">اكتب المقاس المخصص…</string>
+    <string name="category">القسم</string>
+    <string name="select_category">اختر القسم</string>
+    <string name="product_image">صور المنتج</string>
+    <string name="tap_to_choose_image">اضغط لاختيار صورة من المعرض</string>
+    <string name="add_more_images">إضافة صور أخرى</string>
+    <string name="primary_image">رئيسية</string>
+    <string name="set_as_primary">تعيين كرئيسية</string>
+    <string name="change_image">تغيير الصورة</string>
+    <string name="save_product">حفظ المنتج</string>
+    <string name="update_product">تحديث المنتج</string>
+    <string name="edit_product">تعديل المنتج</string>
+    <string name="delete_product">حذف المنتج</string>
+
+    <!-- Measurements and Units -->
+    <string name="length">الطول</string>
+    <string name="width">العرض</string>
+    <string name="height">الارتفاع</string>
+    <string name="weight">الوزن</string>
+    <string name="volume">السعة / الحجم</string>
+    <string name="unit_mm">ملم</string>
+    <string name="unit_cm">سم</string>
+    <string name="unit_m">م</string>
+    <string name="unit_g">غ</string>
+    <string name="unit_kg">كغ</string>
+    <string name="unit_mg">ملغ</string>
+    <string name="unit_ml">مل</string>
+    <string name="unit_l">لتر</string>
+    <string name="size_custom">مخصص</string>
+
+    <!-- Details Screen -->
+    <string name="product_details">تفاصيل المنتج</string>
+    <string name="profit_margin">الربح المحقق</string>
+    <string name="specifications">المواصفات والقياسات</string>
+    <string name="product_gallery">معرض صور المنتج</string>
+    <string name="confirm_delete_title">حذف المنتج؟</string>
+    <string name="confirm_delete_message">هل أنت متأكد من رغبتك في حذف هذا المنتج؟ سيتم نقله إلى سجل النسخ الاحتياطي مع إمكانية استرجاعه لاحقاً.</string>
+
+    <!-- Category Management -->
+    <string name="add_category">إضافة قسم جديد</string>
+    <string name="category_name">اسم القسم</string>
+    <string name="category_name_hint">مثال: ملابس، إلكترونيات، مواد غذائية…</string>
+    <string name="edit_category">تعديل القسم</string>
+    <string name="delete_category">حذف القسم</string>
+    <string name="confirm_delete_category_title">حذف القسم؟</string>
+    <string name="category_has_products_warning">هذا القسم يحتوي حالياً على %1$d منتج. يرجى إعادة تعيين المنتجات أو حذفها أولاً.</string>
+    <string name="all_categories_subtitle">جميع الأقسام المسجلة</string>
+
+    <!-- Backup Dashboard Strings -->
+    <string name="backup_dashboard_title">لوحة التحكم في النسخ الاحتياطي</string>
+    <string name="backup_now">نسخ احتياطي الآن</string>
+    <string name="restore_local">استعادة نسخة محلية</string>
+    <string name="restore_drive">استعادة من Google Drive</string>
+    <string name="backup_history">سجل النسخ وسلة المحذوفات</string>
+    <string name="google_account_title">حساب Google Drive</string>
+    <string name="connect_google">ربط حساب Google</string>
+    <string name="disconnect_google">فصل الحساب</string>
+    <string name="connected_as">متصل بالحساب: %1$s</string>
+    <string name="not_connected">غير متصل بحساب Google</string>
+    <string name="sync_status_title">حالة المزامنة</string>
+    <string name="status_synced">تمت المزامنة بنجاح</string>
+    <string name="status_in_progress">النسخ الاحتياطي قيد الإنشاء…</string>
+    <string name="status_waiting_network">في انتظار الاتصال بالإنترنت</string>
+    <string name="status_failed">فشل النسخ الاحتياطي</string>
+    <string name="status_none">لم يتم إنشاء نسخة بعد</string>
+    <string name="last_local_backup">آخر نسخة محلية: %1$s</string>
+    <string name="last_cloud_backup">آخر نسخة سحابية: %1$s</string>
+    <string name="products_added_counter">منتجات مضافة منذ آخر نسخة: %1$d / %2$d</string>
+    <string name="unsynced_changes_counter">تغييرات غير متزامنة: %1$d</string>
+    <string name="unsynced_changes_format">توجد %1$d تغييرات بانتظار المزامنة</string>
+    <string name="purchase_price_format">الشراء: %1$s</string>
+
+    <string name="local_backup_section">النسخ الاحتياطي المحلي</string>
+    <string name="cloud_backup_section">النسخ السحابي (Google Drive)</string>
+    <string name="local_backup_present">توجد نسخة محلية محفوظة</string>
+    <string name="local_backup_absent">لا توجد نسخة محلية بعد</string>
+    <string name="local_backup_stats">الحجم: %1$s • المنتجات: %2$d • الصور: %3$d</string>
+    <string name="cloud_status_not_synced">لم تتم المزامنة بعد</string>
+    <string name="cloud_status_uploading">جاري الرفع إلى Google Drive…</string>
+    <string name="cloud_status_success">تم الرفع بنجاح</string>
+    <string name="cloud_status_failed">فشل الرفع</string>
+    <string name="cloud_status_waiting">في انتظار الإنترنت</string>
+    <string name="cloud_backup_file_info">الملف: %1$s • الحجم: %2$s</string>
+    <string name="cloud_file_id_info">معرف الملف: %1$s</string>
+    <string name="cloud_error_prefix">خطأ الرفع: %1$s</string>
+    <string name="delete_cloud_backup">حذف من السحابة</string>
+    <string name="delete_cloud_backup_confirm">هل تريد حذف هذه النسخة نهائياً من Google Drive؟</string>
+
+    <!-- Backup History & Deleted Products -->
+    <string name="tab_backups">النسخ الاحتياطية</string>
+    <string name="tab_deleted_products">المنتجات المحذوفة</string>
+    <string name="restore_product">استرجاع المنتج للمتجر</string>
+    <string name="restore_backup_confirm_title">استعادة النسخة الاحتياطية؟</string>
+    <string name="restore_backup_confirm_msg">سيتم استبدال البيانات الحالية بمحتويات هذه النسخة الاحتياطية مع حفظ نسخة أمان تلقائية. هل تريد المتابعة؟</string>
+    <string name="empty_backups">لا توجد نسخ احتياطية مسجلة بعد.</string>
+    <string name="empty_deleted_products">سلة المحذوفات فارغة.</string>
+
+    <!-- Settings Screen -->
+    <string name="appearance_settings">المظهر والتصميم</string>
+    <string name="theme_label">السمة والوضع الليلي</string>
+    <string name="theme_light">الوضع الفاتح</string>
+    <string name="theme_dark">الوضع الداكن</string>
+    <string name="theme_system">تلقائي حسب النظام</string>
+    <string name="font_size_label">حجم الخط العربي</string>
+    <string name="font_small">صغير</string>
+    <string name="font_medium">متوسط</string>
+    <string name="font_large">كبير</string>
+    <string name="card_compact_label">تنسيق بطاقات المنتجات مصغر ومضغوط</string>
+
+    <string name="product_display_settings">عرض عناصر بطاقة المنتج</string>
+    <string name="pref_show_image">عرض صورة المنتج</string>
+    <string name="pref_show_selling_price">عرض ثمن البيع</string>
+    <string name="pref_show_purchase_price">عرض ثمن الشراء</string>
+    <string name="pref_show_category">عرض تصنيف القسم</string>
+    <string name="pref_show_color">عرض اللون</string>
+    <string name="pref_show_size">عرض المقاس</string>
+
+    <string name="currency_settings">إعدادات العملة</string>
+    <string name="pref_currency_symbol">رمز العملة المعروض</string>
+
+    <string name="backup_settings">إعدادات النسخ الاحتياطي</string>
+    <string name="pref_auto_local_backup">تفعيل النسخ الاحتياطي التلقائي المحلي</string>
+    <string name="pref_google_drive_backup">تفعيل النسخ الاحتياطي السحابي (Google Drive)</string>
+    <string name="pref_threshold_label">عدد المنتجات الجديدة للمزامنة السحابية (افتراضي: 10)</string>
+    <string name="pref_backup_on_edit">نسخ احتياطي عند تعديل أي منتج</string>
+    <string name="pref_backup_on_delete">نسخ احتياطي عند حذف أي منتج</string>
+    <string name="pref_retention_label">الحد الأقصى للنسخ الاحتياطية المحتفظ بها (افتراضي: 5)</string>
+
+    <string name="general_settings">إعدادات عامة</string>
+    <string name="pref_confirm_delete">طلب تأكيد قبل الحذف</string>
+    <string name="about_app">حول التطبيق</string>
+    <string name="about_app_desc">تطبيق متجري - نظام إدارة المخزون والمنتجات للمحلات التجارية المغربية.</string>
+    <string name="version_label">إصدار التطبيق: 1.0 (Morocco Edition)</string>
+
+    <!-- Common Actions -->
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="ok">حسناً</string>
+    <string name="restore">استعادة</string>
+
+    <!-- Messages & Validation Errors -->
+    <string name="error_name_empty">يرجى إدخال اسم المنتج</string>
+    <string name="error_invalid_purchase_price">يرجى إدخال ثمن شراء صحيح</string>
+    <string name="error_invalid_selling_price">يرجى إدخال ثمن بيع صحيح</string>
+    <string name="error_select_category">يرجى اختيار قسم للمنتج</string>
+    <string name="error_category_name_empty">لا يمكن أن يكون اسم القسم فارغاً</string>
+    <string name="error_category_exists">يوجد قسم بهذا الاسم مسبقاً</string>
+    <string name="success_product_saved">تم حفظ المنتج بنجاح</string>
+    <string name="success_product_updated">تم تحديث المنتج بنجاح</string>
+    <string name="success_product_deleted">تم نقل المنتج إلى سلة المحذوفات والنسخ الاحتياطي</string>
+    <string name="success_product_restored">تم استرجاع المنتج بنجاح للمتجر</string>
+    <string name="success_category_added">تمت إضافة القسم بنجاح</string>
+    <string name="success_category_updated">تم تحديث القسم بنجاح</string>
+    <string name="success_category_deleted">تم حذف القسم بنجاح</string>
+    <string name="success_backup_created">تم إنشاء النسخة الاحتياطية بنجاح</string>
+    <string name="success_restore">تمت استعادة البيانات بنجاح</string>
+    <string name="options">خيارات</string>
+    <string name="fullscreen_zoom">تكبير في ملء الشاشة</string>
+    <string name="delete_image">حذف هذه الصورة</string>
+    <string name="confirm_delete_image">هل أنت متأكد من حذف هذه الصورة؟</string>
+    <string name="processing_image">جاري معالجة الصورة وعزل الخلفية…</string>
+    <string name="single_drive_backup_desc">ملف سحابي واحد يتم تحديثه تلقائياً</string>
+
+    <!-- Background Removal Screen -->
+    <string name="bg_removal_title">إزالة خلفية الصور</string>
+    <string name="bg_removal_subtitle">معاينة عزل المنتج تلقائياً بالذكاء الاصطناعي</string>
+    <string name="use_processed_images">استخدام الصور بعد إزالة الخلفية</string>
+    <string name="use_original_images">استخدام الصور الأصلية</string>
+    <string name="original_image_label">الصورة الأصلية</string>
+    <string name="processed_image_label">بعد إزالة الخلفية</string>
+    <string name="bg_processing_status">جاري عزل الخلفية بالذكاء الاصطناعي…</string>
+    <string name="bg_removed_success">تم عزل الخلفية بنجاح</string>
+    <string name="bg_removed_failed">تم حفظ الصورة الأصلية</string>
+    <string name="option_use_processed">النسخة المعزولة</string>
+    <string name="option_use_original">النسخة الأصلية</string>
+
+    <!-- Multi-selection & Bulk Deletion -->
+    <string name="select_all">تحديد الكل</string>
+    <string name="deselect_all">إلغاء التحديد</string>
+    <string name="selected_count">%1$d محددة</string>
+    <string name="confirm_bulk_delete_title">حذف المنتجات المحددة؟</string>
+    <string name="confirm_bulk_delete_message">هل أنت متأكد من رغبتك في حذف %1$d منتجات محددة؟ سيتم نقلها إلى سلة المحذوفات مع إمكانية استرجاعها لاحقاً.</string>
+    <string name="bulk_delete_success">تم حذف %1$d منتجات بنجاح</string>
+
+    <!-- Security & Password Protection -->
+    <string name="security_section_title">الأمان والخصوصية</string>
+    <string name="create_password_title">إنشاء كلمة المرور</string>
+    <string name="create_password_desc">لحماية بيانات متجرك وأسعار الشراء، يرجى إنشاء كلمة مرور</string>
+    <string name="unlock_title">فتح التطبيق</string>
+    <string name="unlock_desc">أدخل كلمة المرور لإلغاء القفل والمتابعة</string>
+    <string name="change_password_title">تغيير كلمة المرور</string>
+    <string name="change_password_desc">تحديث كلمة المرور لحماية التطبيق</string>
+    <string name="password_label">كلمة المرور</string>
+    <string name="confirm_password_label">تأكيد كلمة المرور</string>
+    <string name="current_password_label">كلمة المرور الحالية</string>
+    <string name="new_password_label">كلمة المرور الجديدة</string>
+    <string name="confirm_new_password_label">تأكيد كلمة المرور الجديدة</string>
+    <string name="password_hint">••••••••</string>
+    <string name="confirm_password_dialog_title">تأكيد كلمة المرور</string>
+    <string name="confirm_password_dialog_msg">أدخل كلمة المرور للمتابعة</string>
+    <string name="password_mismatch_error">كلمة المرور غير متطابقة</string>
+    <string name="password_incorrect_error">كلمة المرور غير صحيحة</string>
+    <string name="password_too_short_error">يجب أن تتكون كلمة المرور من 4 أحرف على الأقل</string>
+    <string name="password_empty_error">يرجى إدخال كلمة المرور</string>
+    <string name="password_created_success">تم إنشاء كلمة المرور بنجاح</string>
+    <string name="password_changed_success">تم تغيير كلمة المرور بنجاح</string>
+    <string name="btn_save_password">حفظ كلمة المرور</string>
+    <string name="btn_unlock">إلغاء القفل</string>
+    <string name="btn_confirm">تأكيد</string>
+
+    <!-- Security Settings Toggles -->
+    <string name="pref_protect_sensitive_title">حماية العمليات الحساسة</string>
+    <string name="pref_protect_sensitive_desc">طلب تأكيد كلمة المرور قبل الحذف أو الاستعادة</string>
+    <string name="pref_mask_purchase_price_title">إخفاء ثمن الشراء</string>
+    <string name="pref_mask_purchase_price_desc">عرض ثمن الشراء مشفراً (••••••) بشكل افتراضي</string>
+    <string name="pref_change_password_btn">تغيير كلمة المرور الآن</string>
+    <string name="privacy_purchase_price">خصوصية ثمن الشراء</string>
+    <string name="purchase_price_masked">الشراء: ••••••</string>
+    <string name="purchase_price_masked_details">ثمن الشراء: ••••••</string>
+    <string name="reveal_purchase_price">عرض ثمن الشراء</string>
+
+    <!-- Theme Customization (10 Themes) -->
+    <string name="theme_selection_title">المظهر والألوان</string>
+    <string name="theme_select_palette">اختر سمة التطبيق المفضلة</string>
+    <string name="theme_ocean_blue">الأزرق المحيطي</string>
+    <string name="theme_forest_green">الأخضر الطبيعي</string>
+    <string name="theme_royal_purple">البنفسجي الملكي</string>
+    <string name="theme_sunset_orange">البرتقالي</string>
+    <string name="theme_golden_yellow">الذهبي</string>
+    <string name="theme_rose_pink">الوردي</string>
+    <string name="theme_teal">الفيروزي</string>
+    <string name="theme_midnight">الرمادي الليلي</string>
+    <string name="theme_burgundy">العنابي</string>
+    <string name="theme_emerald">الزمردي</string>
+
+    <!-- Biometric Authentication (Feature 2) -->
+    <string name="auth_method_title">طريقة التحقق وتسجيل الدخول</string>
+    <string name="auth_method_desc">اختر طريقة فتح التطبيق والعمليات الحساسة</string>
+    <string name="auth_method_password">كلمة المرور فقط</string>
+    <string name="auth_method_biometric">البصمة أو التعرف على الوجه</string>
+    <string name="biometric_prompt_title">تأكيد الهوية</string>
+    <string name="biometric_prompt_subtitle">استخدم البصمة أو التعرف على الوجه للمتابعة</string>
+    <string name="biometric_prompt_negative">استخدام كلمة المرور</string>
+    <string name="biometric_not_available">المصادقة الحيوية غير مدعومة أو غير مفعلة على جهازك، سيتم استخدام كلمة المرور</string>
+
+    <!-- Camera Capture (Feature 4) -->
+    <string name="camera_option_gallery">اختيار من المعرض</string>
+    <string name="camera_option_camera">التصوير بالكاميرا</string>
+    <string name="select_image_source">إضافة صور للمنتج</string>
+
+    <!-- Red Backup Warning Banner (Feature 7) -->
+    <string name="backup_pending_warning_title">تنبيه: توجد تغييرات لم يتم حفظها في النسخة الاحتياطية السحابية</string>
+    <string name="backup_pending_no_internet">لا يوجد اتصال بالإنترنت. تم الاحتفاظ بالتغييرات محلياً وسيتم رفعها عند عودة الاتصال.</string>
+    <string name="backup_failed_warning">تنبيه: فشل رفع آخر نسخة سحابية، اضغط للنسخ الآن</string>
+    <string name="backup_in_progress">جاري النسخ الاحتياطي&#8230;</string>
+    <string name="backup_synced_success">تم حفظ النسخة السحابية بنجاح</string>
+
+    <!-- Persistent SAF Backup & Settings (Feature 5, 6, 8) -->
+    <string name="pref_auto_cloud_on_wifi_only">النسخ السحابي عبر Wi-Fi فقط</string>
+    <string name="pref_show_backup_warning">عرض تنبيه عند وجود تغييرات غير متزامنة</string>
+    <string name="persistent_backup_folder_title">مجلد النسخ الاحتياطي الدائم</string>
+    <string name="choose_backup_folder">تحديد مجلد خارجي دائم</string>
+    <string name="backup_folder_selected">تم تحديد مجلد النسخ الاحتياطي بنجاح</string>
+    <string name="pending_changes_count">التغييرات السحابية المعلقة: %1$d</string>
+    <string name="local_backup_location">موقع النسخة الدائمة: %1$s</string>
+    <string name="local_backup_location_default">المجلد الداخلي (افتراضي)</string>
+    <string name="btn_change_backup_folder">تغيير مجلد النسخ الدائم</string>
+</resources>

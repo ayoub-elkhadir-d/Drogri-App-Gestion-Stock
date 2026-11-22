@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand / Primary Palette (Deep Royal Blue / Indigo) -->
+    <color name="primary">#1E3A8A</color>
+    <color name="primary_variant">#172554</color>
+    <color name="primary_light">#3B82F6</color>
+    <color name="primary_container">#DBEAFE</color>
+    <color name="on_primary_container">#1E3A8A</color>
+
+    <!-- Accent / Success (Emerald Green for Selling Price & Profit) -->
+    <color name="accent_green">#059669</color>
+    <color name="accent_green_light">#D1FAE5</color>
+    <color name="accent_green_dark">#065F46</color>
+
+    <!-- Warning / Warning Orange -->
+    <color name="accent_orange">#D97706</color>
+    <color name="accent_orange_light">#FEF3C7</color>
+
+    <!-- Warning / Danger (Crimson Red for Delete & Errors) -->
+    <color name="danger">#DC2626</color>
+    <color name="danger_light">#FEE2E2</color>
+
+    <!-- Neutral / Background Palette -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="card_stroke">#E2E8F0</color>
+
+    <!-- Typography & Icon Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Product Image Background -->
+    <color name="product_img_bg">#FFFFFF</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- ============================================== -->
+    <!-- 10 CUSTOM APPLICATION THEMES (LIGHT PALETTES)   -->
+    <!-- ============================================== -->
+    <!-- 1. Ocean Blue -->
+    <color name="theme_ocean_blue_primary">#2563EB</color>
+    <color name="theme_ocean_blue_secondary">#60A5FA</color>
+    <color name="theme_ocean_blue_background">#F8FAFC</color>
+    <color name="theme_ocean_blue_container">#DBEAFE</color>
+
+    <!-- 2. Forest Green -->
+    <color name="theme_forest_green_primary">#15803D</color>
+    <color name="theme_forest_green_secondary">#4ADE80</color>
+    <color name="theme_forest_green_background">#F7FAF7</color>
+    <color name="theme_forest_green_container">#DCFCE7</color>
+
+    <!-- 3. Royal Purple -->
+    <color name="theme_royal_purple_primary">#7C3AED</color>
+    <color name="theme_royal_purple_secondary">#A78BFA</color>
+    <color name="theme_royal_purple_background">#FAF8FF</color>
+    <color name="theme_royal_purple_container">#EDE9FE</color>
+
+    <!-- 4. Sunset Orange -->
+    <color name="theme_sunset_orange_primary">#EA580C</color>
+    <color name="theme_sunset_orange_secondary">#FB923C</color>
+    <color name="theme_sunset_orange_background">#FFFAF5</color>
+    <color name="theme_sunset_orange_container">#FFEDD5</color>
+
+    <!-- 5. Golden Yellow -->
+    <color name="theme_golden_yellow_primary">#CA8A04</color>
+    <color name="theme_golden_yellow_secondary">#FACC15</color>
+    <color name="theme_golden_yellow_background">#FFFEF5</color>
+    <color name="theme_golden_yellow_container">#FEF9C3</color>
+
+    <!-- 6. Rose Pink -->
+    <color name="theme_rose_pink_primary">#DB2777</color>
+    <color name="theme_rose_pink_secondary">#F472B6</color>
+    <color name="theme_rose_pink_background">#FFF7FA</color>
+    <color name="theme_rose_pink_container">#FCE7F3</color>
+
+    <!-- 7. Teal -->
+    <color name="theme_teal_primary">#0F766E</color>
+    <color name="theme_teal_secondary">#2DD4BF</color>
+    <color name="theme_teal_background">#F5FAF9</color>
+    <color name="theme_teal_container">#CCFBF1</color>
+
+    <!-- 8. Midnight -->
+    <color name="theme_midnight_primary">#334155</color>
+    <color name="theme_midnight_secondary">#64748B</color>
+    <color name="theme_midnight_background">#F8FAFC</color>
+    <color name="theme_midnight_container">#E2E8F0</color>
+
+    <!-- 9. Burgundy -->
+    <color name="theme_burgundy_primary">#9F1239</color>
+    <color name="theme_burgundy_secondary">#FB7185</color>
+    <color name="theme_burgundy_background">#FFF7F8</color>
+    <color name="theme_burgundy_container">#FFE4E6</color>
+
+    <!-- 10. Emerald -->
+    <color name="theme_emerald_primary">#047857</color>
+    <color name="theme_emerald_secondary">#34D399</color>
+    <color name="theme_emerald_background">#F5FBF8</color>
+    <color name="theme_emerald_container">#D1FAE5</color>
+</resources>
